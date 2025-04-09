@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>HTMLタグ一覧</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
 
-    <h1>重要なHTMLタグ一覧</h1>
+<head>
+	<title>HTMLタグ一覧</title>
+	<meta charset="utf-8">
+</head>
 
-    <a href="https://www.flickr.com/photos/jdhancock/3814523970">
-    	<img src="images/storm_trooper_tagged.jpg" alt="タグ付きストームトルーパー">
-    </a>
+<body>
 
-    <p>
-      このページは、<a href="https://railstutorial.jp/html">Railsチュートリアル
-      「<em>HTML編</em>」</a>で多用されるタグのいくつかをすぐ参照できるクイックリファレンスページとして作られます。
-			このページの制作を通じて、HTMLのテーブル（<em>table</em>）を<code>table</code>タグやそれに関連するタグの使い方を学びます。
-    </p>
+	<h1>重要なHTMLタグ一覧</h1>
 
-    <p>
-      以下のテーブルに含まれるHTMLタグは全体の一部に過ぎませんが、重要なHTMLについてはここで参照できます。
-    </p>
-		
-		<h2>ブロック要素（block element）</h2>
-  </body>
+	<a href="https://www.flickr.com/photos/jdhancock/3814523970">
+		<img src="images/storm_trooper_tagged.jpg" alt="タグ付きストームトルーパー">
+	</a>
+
+	<p>
+		このページは、<a href="https://railstutorial.jp/html">Railsチュートリアル
+			「<em>HTML編</em>」</a>で多用されるタグのいくつかをすぐ参照できるクイックリファレンスページとして作られます。
+		このページの制作を通じて、HTMLのテーブル（<em>table</em>）を<code>table</code>タグやそれに関連するタグの使い方を学びます。
+	</p>
+
+	<p>
+		以下のテーブルに含まれるHTMLタグは全体の一部に過ぎませんが、重要なHTMLについてはここで参照できます。
+	</p>
+
+	<h2>ブロック要素（block element）</h2>
 
 	<table>
 		<tr>
@@ -62,22 +63,58 @@
 			<td>この中に表のセルデータを置く</td>
 		</tr>
 	</table>
+
+
+	<h2>インライン要素（inline element）</h2>
+
+	<table>
+		<tr>
+			<th>HTMLタグ</th>
+			<th>タグ名</th>
+			<th>目的</th>
+			<th>記述例</th>
+			<th>画面上の表示結果</th>
+		</tr>
+		<tr>
+			<td><code>em</code></td>
+			<td>軽い強調（emphasized）</td>
+			<td>テキストを軽く強調する</td>
+			<td><code>技術の成熟（&lt;em&gt;technical sophisticarion&lt;/em&gt;）</code></td>
+			<td>技術の成熟（<em>technical sophisticartion）</em></td>
+		</tr>
+		<tr>
+			<td><code>strong</code></td>
+			<td>強調（strong）</td>
+			<td>テキストを強調する</td>
+			<td><code>&lt;strong&gt;少なくとも10億人&lt;/strong&gt;</code></td>
+			<td>（<strong>少なくとも10億人</strong>）</td>
+		</tr>
+		<tr>
+			<td><code>a</code></td>
+			<td>アンカー（anchor）</td>
+			<td>ハイパーリンクにする</td>
+			<td>
+				<code>
+				&lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+			</code>
+			</td>
+			<td><a href="https://learnenough.com/">learnenough</a></td>
+		</tr>
+		<tr>
+			<td><code>img</code></td>
+			<td>画像（images）</td>
+			<td>画像を配置する</td>
+			<td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code></td>
+			<td><img src="https://bit.ly/1MZAFuQ" alt="Micael Hartl"></td>
+		</tr>
+		<tr>
+			<td><code>code</code></td>
+			<td>コード（code）</td>
+			<td>コードの形式で表示する</td>
+			<td>&lt;code&gt;Hello, world!&lt;code&gt;</td>
+			<td><code>Hello, world!</code></td>
+		</tr>
+	</table>
+</body>
+
 </html>
-
-<h2>インライン要素（inline element）</h2>
-
-<table>
-	<tr>
-		<th>HTMLタグ</th>
-		<th>タグ名</th>
-		<th>目的</th>
-		<th>記述例</th>
-		<th>画面上の表示結果</th>
-	</tr>
-	<tr>
-		<td><code>em</code></td>
-		<td>軽い強調（emphasized）</td>
-		<td>テキストを軽く強調する</td>
-		<td><code>技術の成熟（&lt;em&gt;technical sophisticarion&lt;/em&gt;</code></td>
-	</tr>
-</table>
