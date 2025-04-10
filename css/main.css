@@ -7,6 +7,9 @@
 .image-link {
     text-decoration: none;
 }
+.image-link :visited {
+    color: blue;
+}
 .quote-box {
     padding: 2px 20px; background-color: wheat
 }
